@@ -12,11 +12,7 @@ const Post = (props) => {
     publish_date,
     reading_time,
   } = props.blog;
-  console.log(props.blog.reading_time);
-
-  const handleClick = () => {
-    console.log("click");
-  };
+  const handleClick = props.handleClick;
 
   return (
     <div className="post">
@@ -33,7 +29,7 @@ const Post = (props) => {
         </div>
         <p>
           {reading_time}{" "}
-          <button onClick={handleClick}>
+          <button onClick={() => handleClick(props.blog)}>
             <FontAwesomeIcon icon={faBookBible} />
           </button>
         </p>
