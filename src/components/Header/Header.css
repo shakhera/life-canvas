@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(218, 217, 217);
+  padding: 0 50px;
+  height: 100px;
+}
+.navigation {
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation a {
+  margin-left: 90px;
+  align-items: center;
+}
+.img_id {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
