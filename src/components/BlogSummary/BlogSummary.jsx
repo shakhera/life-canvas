@@ -4,7 +4,7 @@ const BlogSummary = ({ blog }) => {
   console.log(blog);
   return (
     <div>
-      <div className="bookmarked-blogs">
+      <div className="bookmarked">
         <h3>{blog.article}</h3>
       </div>
     </div>
